@@ -10,14 +10,14 @@ import org.springframework.stereotype.Component;
  * @Date 2/20/2023
  */
 @Setter
-@Component(value="myBean")
-public class MyBean {
+@Component
+public class MyBean{
     private BeanName name;
 
-    public MyBean(@Qualifier("firstName") BeanName name){       //qualifier
+    public MyBean(@Qualifier("firstName") BeanName name){
         this.name = name;
     }
     public String sayHello(){
-        return "Hello " + name.getName() + "!";   //interface has a method getName
+        return "Hello " + name.getName() + "!";
     }
 }
