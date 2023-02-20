@@ -22,6 +22,7 @@ public class Main {
         System.out.println(applicationContext.containsBean("secondName"));
 
         MyBean myBean = applicationContext.getBean(MyBean.class);
+        System.out.println(myBean.sayHello());
 
 
         myBean.setName(new SecondName());
