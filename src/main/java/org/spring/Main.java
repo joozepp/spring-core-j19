@@ -10,6 +10,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * @author Joozepp
  * @Date 2/20/2023
  */
+                                                //  -----------------------------SPRING VERSION 5.3.25 REQUIRED FOR AUTO-CONFIG---------------------------------------------------------
 public class Main {
     public static void main(String[] args) {
 
