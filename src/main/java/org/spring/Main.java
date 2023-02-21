@@ -10,6 +10,8 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * author Joozepp
  * @Date ${DATE}
  */
+
+                                              //  -----------------------------SPRING VERSION 5.3.25 REQUIRED FOR AUTO-CONFIG---------------------------------------------------------
 public class Main {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext();
