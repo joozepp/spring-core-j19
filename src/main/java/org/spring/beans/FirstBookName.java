@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
  * @author Joozepp
  * @Date 2/20/2023
  */
-@Component(value = "FirstBookName")
+@Component(value = "firstBookName")
 public class FirstBookName implements BeanName {
     private String bookName;
 
