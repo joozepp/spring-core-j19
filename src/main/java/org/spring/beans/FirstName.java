@@ -9,9 +9,9 @@ import org.springframework.stereotype.Component;
  */
 @Component(value = "firstName")
 public class FirstName implements BeanName {
-    private String name;
+    private final String name;
 
-    public FirstName(){
+    public FirstName() {
         this.name = "Joozepp";
     }
     @Override
@@ -19,3 +19,4 @@ public class FirstName implements BeanName {
         return this.name;
     }
 }
+
